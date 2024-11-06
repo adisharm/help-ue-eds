@@ -29,7 +29,6 @@
       "cards",
       "columns",
       "note",
-      "steptitle",
       "accordion",
       "support-banner",
       "video"
@@ -52,6 +51,14 @@
     "components": [
       "text",
       "image"
+    ]
+  },
+  {
+    "id": "procedure",
+    "components": [
+      "text",
+      "image",
+      "steptitle"
     ]
   }
 ]
