@@ -44,11 +44,11 @@
   {
     "id": "accordion",
     "components": [
-      "accordion-item"
+      "accordionitem"
     ]
   },
   {
-    "id": "accordion-item",
+    "id": "accordionitem",
     "components": [
       "text",
       "image"
