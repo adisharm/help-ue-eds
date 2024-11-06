@@ -240,6 +240,30 @@
               }
             }
           }
+        },
+        {
+          "title": "ProcedureText",
+          "id": "proceduretext",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {}
+              }
+            }
+          }
+        },
+        {
+          "title": "ProcedureImage",
+          "id": "procedureimage",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {}
+              }
+            }
+          }
         }
       ]
     }
