@@ -1,0 +1,45 @@
+.procedure > ol.stepList {
+  padding-inline-start: 0;
+  counter-reset: step-counter;
+}
+
+.procedure > ol.stepList > li.step {
+  list-style-type: none;
+  counter-increment: step-counter;
+  display: flex;
+  padding: 2px 0;
+  margin: 10px 0;
+}
+
+.procedure > ol.stepList > li.step:before {
+  display: flex;
+  content: counter(step-counter);
+  height:1.6875rem;
+  min-width: 1.6875rem;
+  font-size: 0.8125rem;
+  background: var(--static-color-gray-700);
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.6rem;
+  transform: translateY(-0.2rem);
+}
+.procedure > ol.stepList > li.step > div {
+  margin:0;
+  padding-top:0;
+  min-width:93%;
+}
+
+.procedure > ol.stepList > li.step p {
+  margin: 0;
+}
+
+.procedure > ol.stepList > li.step > div > ul {
+  padding-inline-start: 1em;
+  margin: 0.625rem 0 0.75rem;
+}
+.procedure > ol.stepList > li.step > div > ul > li {
+  list-style-type: disc;
+  margin: 0.5rem;
+}
